@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.automation.runner.TestRunner" time="9.789" tests="9" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\UST_Java\TestMainRestAssured\target\test-classes;C:\UST_Java\TestMainRestAssured\target\classes;C:\Users\280662\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\280662\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\280662\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\280662\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\280662\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\280662\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\280662\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\280662\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\280662\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\280662\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\280662\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\280662\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\280662\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\280662\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\280662\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\280662\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\280662\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\280662\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\280662\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\280662\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\280662\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\280662\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\280662\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\280662\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\280662\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\280662\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\280662\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\OpenJDK-17.0.1\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\280662\AppData\Local\Temp\surefire13613094048037429120\surefirebooter-20240803130214379_3.jar C:\Users\280662\AppData\Local\Temp\surefire13613094048037429120 2024-08-03T13-02-14_089-jvmRun1 surefire-20240803130214379_1tmp surefire_0-20240803130214379_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\UST_Java\TestMainRestAssured\target\test-classes;C:\UST_Java\TestMainRestAssured\target\classes;C:\Users\280662\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\280662\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\280662\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\280662\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\280662\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\280662\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\280662\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\280662\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\280662\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\280662\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\280662\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\280662\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\280662\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\280662\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\280662\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\280662\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\280662\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\280662\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\280662\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\280662\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\280662\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\280662\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\280662\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\280662\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\280662\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\280662\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\280662\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\280662\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\280662\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\280662"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\OpenJDK-17.0.1\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\UST_Java\TestMainRestAssured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\280662\AppData\Local\Temp\surefire13613094048037429120\surefirebooter-20240803130214379_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-39"/>
+    <property name="user.name" value="280662"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\280662\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\280662\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1.1"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\UST_Java\TestMainRestAssured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\OpenJDK-17.0.1\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\PuTTY\;C:\Windows\CCM;C:\Program Files\Git\cmd;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\OpenJDK-17.0.1\jdk-17.0.1\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\280662\AppData\Local\Microsoft\WindowsApps;C:\OpenJDK-17.0.1\jdk-17.0.1\bin;C:\apache-maven-3.9.6\bin;C:\mysql-8.4.0-winx64\bin;C:\mongodb-win32-x86_64-windows-7.0.11\bin;C:\Users\280662\AppData\Local\Programs\mongosh\;C:\allure-2.30.0\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Verify user can create a user" classname="Validate the post request" time="1.992">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+Date: Sat, 03 Aug 2024 07:32:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670337&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=emPze3l3xPTXWqg3IXvjlA5oYBPsL6RJyFMXLXYgM8s%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670337&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=emPze3l3xPTXWqg3IXvjlA5oYBPsL6RJyFMXLXYgM8s%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"54-NEIIQMQIEWyMZDm7ubPX4CS/cuE"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8ad49ce7ff187f60-MAA
+
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "750",
+    "createdAt": "2024-08-03T07:32:17.528Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify user can delete a user" classname="Validate the delete request" time="1.661">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+Date: Sat, 03 Aug 2024 07:32:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670338&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=Yfsb%2FEu6Vwk9oGAOL3UrNb%2F%2Bn%2F5jZ3gbSC0E31FbbAc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670338&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=Yfsb%2FEu6Vwk9oGAOL3UrNb%2F%2Bn%2F5jZ3gbSC0E31FbbAc%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"54-wTOzf/3XnDnb232VM3/7esnq6MY"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8ad49cec2d067fda-MAA
+
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "371",
+    "createdAt": "2024-08-03T07:32:18.182Z"
+}
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/371
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 204 No Content
+Date: Sat, 03 Aug 2024 07:32:19 GMT
+Content-Length: 0
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670339&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=RlnqzPkeyjaztc%2Bhj%2FI0Zmge%2FD3hFPF7%2FIrDTKcbQlo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670339&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=RlnqzPkeyjaztc%2Bhj%2FI0Zmge%2FD3hFPF7%2FIrDTKcbQlo%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8ad49cf2cf7a7fce-MAA
+]]></system-out>
+  </testcase>
+  <testcase name="Verify user can get a user" classname="Validate the get request" time="1.301">
+    <failure message="expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<404>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.automation.steps.ResponseSteps.verify_status_code_is(ResponseSteps.java:13)
+	at ✽.verify status code is 200(file:///C:/UST_Java/TestMainRestAssured/src/test/resources/features/get_user.feature:13)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+Date: Sat, 03 Aug 2024 07:32:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670339&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=RlnqzPkeyjaztc%2Bhj%2FI0Zmge%2FD3hFPF7%2FIrDTKcbQlo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670339&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=RlnqzPkeyjaztc%2Bhj%2FI0Zmge%2FD3hFPF7%2FIrDTKcbQlo%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"54-tvzU3QbdDT3JXmiJWzi9oXGPa+Y"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8ad49cf6cf259135-MAA
+
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "459",
+    "createdAt": "2024-08-03T07:32:19.908Z"
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users/459
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 404 Not Found
+Date: Sat, 03 Aug 2024 07:32:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670340&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=mESIpESAHUr53prxyP3pr8JeAq%2BAWmCeqjj5OBv9i%2FI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670340&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=mESIpESAHUr53prxyP3pr8JeAq%2BAWmCeqjj5OBv9i%2FI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: MISS
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 8ad49cfadffe178a-MAA
+
+{
+    
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify user can get list of user" classname="Validate the get request" time="0.292">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 200 OK
+Date: Sat, 03 Aug 2024 07:32:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722641705&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=z8x41EiQDZM7PPcNxl1pAPUNGmz4ByPGUdTQK556ZkU%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722641705&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=z8x41EiQDZM7PPcNxl1pAPUNGmz4ByPGUdTQK556ZkU%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 6972
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 8ad49cfedb5b7ee0-MAA
+Content-Encoding: gzip
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify user cannot register with invalid credentials #1" classname="Validate register request" time="0.817">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test@yhl.com",
+    "password": "password"
+}
+HTTP/1.1 400 Bad Request
+Date: Sat, 03 Aug 2024 07:32:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670341&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=437eRUMcSVMwFcgzM25rKpWOkS%2BK6HajzWoQnaaYc1I%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670341&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=437eRUMcSVMwFcgzM25rKpWOkS%2BK6HajzWoQnaaYc1I%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8ad49d01eb713978-MAA
+
+{
+    "error": "Note: Only defined users succeed registration"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify user cannot register with invalid credentials #2" classname="Validate register request" time="0.613">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "testdata@gmail.com",
+    "password": "password123"
+}
+HTTP/1.1 400 Bad Request
+Date: Sat, 03 Aug 2024 07:32:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670342&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=Lfogt2BMxPqoY08BApepqPi9hpwGvGfxTgejizIC3po%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670342&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=Lfogt2BMxPqoY08BApepqPi9hpwGvGfxTgejizIC3po%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8ad49d05bdbda931-MAA
+
+{
+    "error": "Note: Only defined users succeed registration"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify user cannot register with invalid credentials #3" classname="Validate register request" time="0.619">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "user12@gmal.cm",
+    "password": "password323"
+}
+HTTP/1.1 400 Bad Request
+Date: Sat, 03 Aug 2024 07:32:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670342&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=Lfogt2BMxPqoY08BApepqPi9hpwGvGfxTgejizIC3po%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670342&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=Lfogt2BMxPqoY08BApepqPi9hpwGvGfxTgejizIC3po%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8ad49d098ddc7f7b-MAA
+
+{
+    "error": "Note: Only defined users succeed registration"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify user cannot register with invalid credentials #4" classname="Validate register request" time="0.587">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test13s@yahoo.com",
+    "password": "Admin!23"
+}
+HTTP/1.1 400 Bad Request
+Date: Sat, 03 Aug 2024 07:32:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670343&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2Fe%2BGaRxYetZqPLu7AmFbk%2FR2beyLfa2DLAXLWbkZHD0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670343&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2Fe%2BGaRxYetZqPLu7AmFbk%2FR2beyLfa2DLAXLWbkZHD0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8ad49d0d6e61179e-MAA
+
+{
+    "error": "Note: Only defined users succeed registration"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify user can update a user" classname="Validate the update request" time="1.246">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+Date: Sat, 03 Aug 2024 07:32:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670344&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=qu7mwJ7jKwnJytPhon%2B%2B1MZHLN%2FfEDsnWjlzdF9ywD4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670344&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=qu7mwJ7jKwnJytPhon%2B%2B1MZHLN%2FfEDsnWjlzdF9ywD4%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"54-mpKL0eQvUts5maEuzTsQmnlnCxo"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8ad49d114f9f7fb9-MAA
+
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "939",
+    "createdAt": "2024-08-03T07:32:24.142Z"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/939?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "developer"
+}
+HTTP/1.1 200 OK
+Date: Sat, 03 Aug 2024 07:32:24 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722670344&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=qu7mwJ7jKwnJytPhon%2B%2B1MZHLN%2FfEDsnWjlzdF9ywD4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722670344&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=qu7mwJ7jKwnJytPhon%2B%2B1MZHLN%2FfEDsnWjlzdF9ywD4%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4c-GhHQ5OhRg0uSS75OmcInBMyR5eA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 8ad49d152e7c7f99-MAA
+Content-Encoding: gzip
+
+{
+    "name": "morpheus",
+    "job": "developer",
+    "updatedAt": "2024-08-03T07:32:24.760Z"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
