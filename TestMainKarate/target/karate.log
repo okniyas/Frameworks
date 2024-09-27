@@ -1,0 +1,111 @@
+13:03:39.082 [main] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "leader",
+  "id": "221",
+  "createdAt": "2024-08-03T07:33:39.345Z"
+}
+ 
+13:03:40.198 [main] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "leader",
+  "id": "757",
+  "createdAt": "2024-08-03T07:33:40.494Z"
+}
+ 
+13:03:40.745 [main] INFO  com.intuit.karate - [print]  
+13:03:41.579 [main] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "leader",
+  "id": "389",
+  "createdAt": "2024-08-03T07:33:41.852Z"
+}
+ 
+13:03:42.149 [main] ERROR com.intuit.karate - classpath:features/get_user.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 565, url: https://reqres.in/api/users/389, response: 
+{}
+classpath:features/get_user.feature:10
+13:03:42.414 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+13:03:43.120 [main] INFO  com.intuit.karate - [print] {
+  "error": "Note: Only defined users succeed registration"
+}
+ 
+13:03:43.715 [main] INFO  com.intuit.karate - [print] {
+  "error": "Note: Only defined users succeed registration"
+}
+ 
+13:03:44.316 [main] INFO  com.intuit.karate - [print] {
+  "error": "Note: Only defined users succeed registration"
+}
+ 
+13:03:44.916 [main] INFO  com.intuit.karate - [print] {
+  "error": "Note: Only defined users succeed registration"
+}
+ 
+13:03:45.581 [main] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "leader",
+  "id": "348",
+  "createdAt": "2024-08-03T07:33:45.871Z"
+}
+ 
+13:03:46.154 [main] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "developer",
+  "updatedAt": "2024-08-03T07:33:46.444Z"
+}
+ 

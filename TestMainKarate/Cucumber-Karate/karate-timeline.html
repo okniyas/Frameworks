@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"features\/create_user[1:6]","start":1722670417729,"end":1722670419086,"title":"features\/create_user[1:6] 13:03:37.729-13:03:39.086 Verify user can create a user"},{"id":2,"group":1,"content":"features\/register[1.1:16]","start":1722670422557,"end":1722670423120,"title":"features\/register[1.1:16] 13:03:42.557-13:03:43.120 Verify user cannot register with invalid credentials"},{"id":3,"group":1,"content":"features\/register[1.2:17]","start":1722670423136,"end":1722670423716,"title":"features\/register[1.2:17] 13:03:43.136-13:03:43.716 Verify user cannot register with invalid credentials"},{"id":4,"group":1,"content":"features\/register[1.3:18]","start":1722670423727,"end":1722670424317,"title":"features\/register[1.3:18] 13:03:43.727-13:03:44.317 Verify user cannot register with invalid credentials"},{"id":5,"group":1,"content":"features\/register[1.4:19]","start":1722670424331,"end":1722670424916,"title":"features\/register[1.4:19] 13:03:44.331-13:03:44.916 Verify user cannot register with invalid credentials"},{"id":6,"group":1,"content":"features\/get_user[1:4]","start":1722670420882,"end":1722670422149,"title":"features\/get_user[1:4] 13:03:40.882-13:03:42.149 Verify user can get a user","className":"failed"},{"id":7,"group":1,"content":"features\/get_user[2:13]","start":1722670422166,"end":1722670422414,"title":"features\/get_user[2:13] 13:03:42.166-13:03:42.414 Verify user can get list of user"},{"id":8,"group":1,"content":"features\/delete_user[1:7]","start":1722670419583,"end":1722670420745,"title":"features\/delete_user[1:7] 13:03:39.583-13:03:40.745 Verify user can delete a user"},{"id":9,"group":1,"content":"features\/update_user[1:8]","start":1722670425000,"end":1722670426155,"title":"features\/update_user[1:8] 13:03:45.000-13:03:46.155 Verify user can update a user"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
