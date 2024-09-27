@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestExample">
+    <listeners>
+        <listener class-name="com.automation.tests.AllureListener"></listener>
+    </listeners>
+    <test name="All test">
+        <classes>
+            <class name="com.automation.tests.LoginTest"></class>
+        </classes>
+
+    </test>
+</suite>
